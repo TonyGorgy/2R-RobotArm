@@ -31,7 +31,7 @@ p_target = [0.1*t',polynomial5_trajectory(:,1)];
 https://www.zhihu.com/tardis/zm/art/269230598?source_id=1005
 
 ## 3.求解关节角度
-```
+```Matlab
 InverseKinematics(4,Rf);
 Joint_1_pos = uLINK(2).q;
 Joint_2_pos = uLINK(3).q;
