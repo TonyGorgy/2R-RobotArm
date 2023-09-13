@@ -1,4 +1,4 @@
-# Project Title
+# 2-dof-RobotArm
 
 使用Matlab和CoppeliaSim在平滑加速路径上生成到达给定点的二自由度手臂
 
