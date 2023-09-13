@@ -17,7 +17,7 @@ https://www.youtube.com/watch?v=wHrgG9ZYh24
    [r,h(2)] = sim.simxGetObjectHandle(clientID,'Joint_2',sim.simx_opmode_blocking);
 ```
 然后通过牛顿插值完成轨迹规划
-```
+```Matlab
 polynomial5_interpolation = Polynomial5Interpolation('Polynomial 5', yaxis_points, xaxis_points);
 polynomial5_trajectory = zeros(length(t), 3); % N x 3 array: position, velocity, acceleration
 for i = 1:length(t)
